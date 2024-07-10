@@ -22,8 +22,33 @@
 
     <!-- Want to add Bootstrap? -->
     <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    }
+
+    .active, .collapsible:hover {
+    background-color: #555;
+    }
+
+    .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  </style>
   </head>
+  
   
   <body>
 
@@ -53,23 +78,10 @@
           
           <div id="papers" class="content-region hide">
             <h2>Papers</h2>
-            <p>
               <button type="button" class="collapsible">Open Collapsible</button>
               <div class="content">
               <p>Lorem ipsum...</p>
               </div>
-
-              Kendrick, J.C. & J. Mendes (in preparation). Composing finding. slides
-              
-              Kendrick, J.C. (under review). Default premise semantics and the 'if p, ought p' problem.  
-              
-              Kendrick, J. C. (under review). Two puzzles about epistemic necessity.  draft 
-              
-              Kendrick, J. C. (under review). Ability modals and homogeneity.  draft 
-
-              Conference Proceedings  
-
-              Kendrick, J. C. (2022). The acquaintance inference as scalar exhaustification. In M. Degano, T. Roberts, G. Sbardolini, & M. Schouwstra (eds.), Proceedings of the 23rd Amsterdam Colloquium, pp. 166-172. final
           </div>
           
           <div id="classes" class="content-region hide">
