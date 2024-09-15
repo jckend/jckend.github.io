@@ -103,7 +103,7 @@ body {
 header, #content, footer { 
   background: rgba(255,255,255,.8); 
   padding:25px;
-  color:#FFFFFF; 
+  color:#000000; 
 }
 
 /* Menu Links */
